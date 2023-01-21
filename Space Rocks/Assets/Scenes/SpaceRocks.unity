@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 177728583}
   - component: {fileID: 177728582}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 369240150}
   - component: {fileID: 369240149}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473266341}
   - component: {fileID: 473266340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,6 +380,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &886287636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 886287638}
+  - component: {fileID: 886287637}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &886287637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886287636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11618d07c3d4a3f4eae1da05890898c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: -4970580351542257117, guid: 0cefae1d20cfa8a438d9f9f86bc7b851, type: 3}
+  trajectoryVariance: 15
+  spawnRate: 2
+  spawnAmount: 1
+  spawnDistance: 15
+--- !u!4 &886287638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886287636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &990638533
 GameObject:
@@ -540,7 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557807223}
   - component: {fileID: 1557807222}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
